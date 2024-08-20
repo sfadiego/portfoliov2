@@ -1,4 +1,4 @@
-const experience = [
+export default experience = [
     {
         period: `Hoy`,
         name: "Axolote",
@@ -82,5 +82,3 @@ const experience = [
     },
 ];
 
-
-console.log(experience);
