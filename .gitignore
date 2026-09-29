@@ -1,0 +1,8 @@
+# Dependencias de terceros
+assets/vendor/
+
+# macOS
+.DS_Store
+
+# Node
+node_modules/
