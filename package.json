@@ -1,0 +1,22 @@
+{
+  "name": "portfolio",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Portfolio Diego Silva",
+  "scripts": {
+    "vendor": "node scripts/copy-vendor.mjs",
+    "postinstall": "npm run vendor",
+    "start": "npx serve ."
+  },
+  "dependencies": {
+    "@srexi/purecounterjs": "^1.5.0",
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
+    "boxicons": "^2.1.4",
+    "glightbox": "^3.3.1",
+    "isotope-layout": "^3.0.6",
+    "remixicon": "^4.9.1",
+    "swiper": "^11.2.10",
+    "waypoints": "^4.0.1"
+  }
+}

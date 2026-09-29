@@ -1188,3 +1188,18 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+.interests .icon-box p {
+  margin: 6px 0 0;
+  font-size: 13px;
+  line-height: 1.4;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Imágenes cuadradas o con transparencia: mismo formato 4:3 y fondo blanco que el resto */
+.portfolio .portfolio-wrap img.img-contain {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #fff;
+  padding: 12px;
+}
